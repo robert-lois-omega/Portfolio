@@ -1,0 +1,552 @@
+/* ===========================================
+   GOOGLE FONTS
+=========================================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Space Grotesk",sans-serif;
+    background:#f5f7fa;
+    color:#222;
+    overflow-x:hidden;
+
+}
+
+/* ===========================================
+   NAVBAR
+=========================================== */
+
+.navbar{
+
+    transition:.3s;
+    padding:15px 0;
+
+}
+
+.navbar-brand{
+
+    font-family:"Audiowide",sans-serif;
+    font-size:1.4rem;
+
+}
+
+.nav-link{
+
+    font-weight:500;
+    margin-left:15px;
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#0d6efd !important;
+
+}
+
+/* ===========================================
+   HERO
+=========================================== */
+
+.hero-section{
+
+    background:#000;
+    color:white;
+    padding:90px 0;
+
+}
+
+.hero-image{
+
+    max-width:320px;
+    width:100%;
+    border-radius:50%;
+    border:8px solid rgba(255,255,255,.1);
+    box-shadow:0 25px 60px rgba(0,0,0,.4);
+    transition:.4s;
+
+}
+
+.hero-image:hover{
+
+    transform:scale(1.03);
+
+}
+
+.hero-title{
+
+    font-family:"Audiowide",sans-serif;
+    font-size:3.2rem;
+
+}
+
+.hero-subtitle{
+
+    margin-top:15px;
+    font-size:1.5rem;
+
+    border-right:3px solid white;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    width:33ch;
+
+    animation:
+    typing 2s steps(33,end),
+    blink .6s infinite;
+
+}
+
+.hero-description{
+
+    max-width:650px;
+    line-height:1.8;
+
+}
+
+/* ===========================================
+   TYPING ANIMATION
+=========================================== */
+
+@keyframes typing{
+
+    from{
+
+        width:0;
+
+    }
+
+    to{
+
+        width:33ch;
+
+    }
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        border-color:transparent;
+
+    }
+
+}
+
+/* ===========================================
+   SOCIAL ICONS
+=========================================== */
+
+.social-icons a{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:55px;
+
+    height:55px;
+
+    margin-right:12px;
+
+    border-radius:50%;
+
+    background:white;
+
+    color:black;
+
+    font-size:1.4rem;
+
+    transition:.3s;
+
+    text-decoration:none;
+
+}
+
+.social-icons a:hover{
+
+    background:#0d6efd;
+
+    color:white;
+
+    transform:translateY(-5px);
+
+}
+
+/* ===========================================
+   SECTIONS
+=========================================== */
+
+section{
+
+    padding:80px 0;
+
+}
+
+.section-title{
+
+    font-family:"Audiowide",sans-serif;
+
+    font-size:2.2rem;
+
+    margin-bottom:25px;
+
+}
+
+/* ===========================================
+   ABOUT
+=========================================== */
+
+.about-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:.35s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.about-card i{
+
+    font-size:3rem;
+
+    color:#0d6efd;
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================================
+   SKILLS
+=========================================== */
+
+.skill-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.skill-card img{
+
+    height:70px;
+
+    object-fit:contain;
+
+}
+
+.skill-card h5{
+
+    margin-top:15px;
+
+    font-weight:700;
+
+}
+
+.skill-card p{
+
+    color:#666;
+
+}
+
+/* ===========================================
+   PROJECTS
+=========================================== */
+
+.project-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+
+.project-card img{
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+.project-card .card-body{
+
+    padding:30px;
+
+}
+
+/* ===========================================
+   BUTTONS
+=========================================== */
+
+.btn{
+
+    border-radius:50px;
+
+    padding:12px 30px;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================================
+   CONTACT
+=========================================== */
+
+.contact-section{
+
+    background:#000;
+
+    color:white;
+
+}
+
+.contact-section .btn{
+
+    min-width:180px;
+
+}
+
+/* ===========================================
+   FOOTER
+=========================================== */
+
+.footer{
+
+    background:#111;
+
+    color:#aaa;
+
+}
+
+.footer small{
+
+    color:#777;
+
+}
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+
+@media(max-width:991px){
+
+.hero-section{
+
+text-align:center;
+
+}
+
+.hero-image{
+
+margin-bottom:40px;
+
+}
+
+.hero-description{
+
+margin:auto;
+
+}
+
+.social-icons{
+
+margin-top:40px;
+
+}
+
+.hero-subtitle{
+
+margin:auto;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-title{
+
+font-size:2.4rem;
+
+}
+
+.hero-subtitle{
+
+font-size:1.1rem;
+
+width:24ch;
+
+animation:
+
+typingMobile 2s steps(24,end),
+
+blink .6s infinite;
+
+}
+
+.section-title{
+
+font-size:2rem;
+
+}
+
+.project-card img{
+
+height:200px;
+
+}
+
+.skill-card{
+
+padding:20px;
+
+}
+
+.about-card{
+
+margin-bottom:20px;
+
+}
+
+}
+
+@keyframes typingMobile{
+
+from{
+
+width:0;
+
+}
+
+to{
+
+width:24ch;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-section{
+
+padding:70px 0;
+
+}
+
+.hero-title{
+
+font-size:2rem;
+
+}
+
+.hero-subtitle{
+
+font-size:.95rem;
+
+width:20ch;
+
+animation:
+
+typingSmall 2s steps(20,end),
+
+blink .6s infinite;
+
+}
+
+.social-icons a{
+
+width:45px;
+
+height:45px;
+
+font-size:1.1rem;
+
+}
+
+.skill-card img{
+
+height:60px;
+
+}
+
+.project-card img{
+
+height:180px;
+
+}
+
+}
+
+@keyframes typingSmall{
+
+from{
+
+width:0;
+
+}
+
+to{
+
+width:20ch;
+
+}
+
+}
