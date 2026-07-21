@@ -90,11 +90,11 @@ body{
 
     border-right:3px solid white;
 
-    white-space:nowrap;
+    white-space:wrap;
 
     overflow:hidden;
 
-    width:15ch;
+    width:10ch;
 
     animation:
     typing 2s steps(33,end),
@@ -123,7 +123,7 @@ body{
 
     to{
 
-        width:15ch;
+        width:10ch;
 
     }
 
